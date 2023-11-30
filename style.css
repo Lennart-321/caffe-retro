@@ -1,0 +1,91 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: "Spirax", sans-serif;
+  font-size: 5vw;
+}
+.menu-link {
+  color: white;
+  text-decoration: solid;
+  margin-inline: 5%;
+}
+#first-menu-link {
+  margin-left: 22%;
+}
+
+#section-hot {
+  background-image: url("hot.jpg");
+  width: auto;
+  margin: -5px;
+}
+#section-juicy {
+  background-image: url("juicy.jpg");
+  width: auto;
+  margin: -5px;
+}
+#section-cosy {
+  background-image: url("cosy.jpg");
+  width: auto;
+  margin: -5px;
+}
+
+.section-header {
+  font-family: "Spirax", sans-serif;
+  /* font-family: 'Poiret One', sans-serif; */
+  font-size: 10vw;
+  color: darkred;
+  text-align: center;
+  padding-top: 15%;
+  margin: 0;
+}
+.section-part-t1 {
+  font-family: "Poiret One", sans-serif;
+  text-align: center;
+  background-color: rgba(139, 0, 0, 0.7);
+  color: white;
+  font-size: 1.9vw;
+  display: inline-block;
+  width: 50%;
+  padding-block: 2%;
+  margin-left: 15%;
+}
+#middle-part {
+  margin-left: 40%;
+}
+.col1 {
+  text-align: left;
+  padding-left: 5%;
+  /* border: 1px solid white; */
+  width: 1000px;
+}
+.col2 {
+  text-align: right;
+  /* border: 1px solid white; */
+  padding-right: 5%;
+  width: 1000px;
+}
+tr {
+  /* width: 50%; */
+}
+
+.section-part-t2 {
+  font-family: "Poiret One", sans-serif;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 1.9vw;
+  display: inline-block;
+  width: 50%;
+  padding-block: 1%;
+  margin-left: 25%;
+  margin-bottom: 10%;
+
+  /* border: 1px solid white; */
+}
+.separator {
+  border-block: 5px solid darkred;
+  margin-block: 0;
+  margin-inline: -5px;
+}
