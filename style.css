@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -5,6 +9,10 @@
   background-color: rgba(0, 0, 0, 0.7);
   font-family: "Spirax", sans-serif;
   font-size: 5vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .menu-link {
   color: white;
@@ -12,23 +20,26 @@
   margin-inline: 5%;
 }
 #first-menu-link {
-  margin-left: 22%;
+  /* margin-left: 22%; */
 }
 
 #section-hot {
-  background-image: url("hot.jpg");
+  /* background-image: url("hot.jpg");
   width: auto;
-  margin: -5px;
+  margin: -5px; */
+  background: center / cover url(hot.jpg), #444;
 }
 #section-juicy {
-  background-image: url("juicy.jpg");
+  /* background-image: url("juicy.jpg");
   width: auto;
-  margin: -5px;
+  margin: -5px; */
+  background: center / cover url(juicy.jpg), #444;
 }
 #section-cosy {
-  background-image: url("cosy.jpg");
+  /* background-image: url("cosy.jpg");
   width: auto;
-  margin: -5px;
+  margin: -5px; */
+  background: center / cover url(cosy.jpg), #444;
 }
 
 .section-header {
@@ -85,7 +96,7 @@ tr {
   /* border: 1px solid white; */
 }
 .separator {
-  border-block: 5px solid darkred;
+  border-block: 3px solid darkred;
   margin-block: 0;
-  margin-inline: -5px;
+  /* margin-inline: -5px; */
 }
